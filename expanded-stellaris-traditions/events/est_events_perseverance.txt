@@ -1,0 +1,137 @@
+namespace = est_perseverance
+
+#Perseverance 1, updates when building built.
+planet_event = {
+	id = est_perseverance.1
+	hide_window = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		owner = {
+			has_active_tradition = tr_est_perseverance_1
+		}
+		from = {
+			Or = {
+				has_building = building_planetary_shield_generator
+				last_building_changed = building_planetary_shield_generator
+			}
+		}
+	}
+	
+	immediate = {
+		planet_event = {
+			id = est_perseverance.2
+		}
+	}
+}
+
+#Perseverance 1, updates on planet gained.
+planet_event = {
+	id = est_perseverance.2
+	hide_window = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		owner = {
+			has_active_tradition = tr_est_perseverance_1
+		}
+	}
+	
+	immediate = {
+		if = {
+			limit = {
+				has_building = building_planetary_shield_generator
+			}
+			if = {
+				limit = {
+					Not = {
+						has_modifier = mod_est_perseverance_1_shield
+					}
+				}
+				add_modifier = {
+					modifier = "mod_est_perseverance_1_shield"
+					days = -1
+				}
+			}
+			if = {
+				limit = {
+					has_modifier = mod_est_perseverance_1_no_shield
+				}
+				remove_modifier = "mod_est_perseverance_1_no_shield"
+			}
+		}
+		else = {
+			if = {
+				limit = {
+					Not = {
+						has_modifier = mod_est_perseverance_1_no_shield
+					}
+				}
+				add_modifier = {
+					modifier = "mod_est_perseverance_1_no_shield"
+					days = -1
+				}
+			}
+			if = {
+				limit = {
+					has_modifier = mod_est_perseverance_1_shield
+				}
+				remove_modifier = "mod_est_perseverance_1_shield"
+			}
+		}
+	}
+}
+
+#Perseverance 5, fires when war have finished, fires next event with short delay.
+country_event = {
+	id = est_perseverance.3
+	hide_window = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		has_global_flag = est_perseverance_5_picked_flag
+		fromfrom = {
+			any_war_participant = {
+				has_active_tradition = tr_est_perseverance_5
+			}
+		}
+	}
+	
+	immediate = {
+		fromfrom = {
+			every_war_participant = {
+				limit = {
+					has_active_tradition = tr_est_perseverance_5
+				}
+				country_event = {
+					id = est_perseverance.4
+					days = 1
+				}
+			}
+		}
+	}
+}
+
+#Adds the bonus when loosing war, check that war have been lost.
+country_event = {
+	id = est_perseverance.4
+	hide_window = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		recently_lost_war = yes
+	}
+	
+	immediate = {
+		if = {
+			limit = {
+				has_modifier = mod_est_perseverance_5
+			}
+			remove_modifier = "mod_est_perseverance_5"
+		}
+		add_modifier = {
+			modifier = "mod_est_perseverance_5"
+			years = 20
+		}
+	}
+}
