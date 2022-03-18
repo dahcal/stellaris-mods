@@ -3406,7 +3406,19 @@ ap_hydrocentric = {
 	potential = {
 		has_aquatics = yes
 		NOT = { has_ascension_perk = ap_hydrocentric }
-		has_trait = trait_pc_ocean_preference
+		OR = {
+			has_trait = trait_pc_ocean_preference
+			if = {
+				limit = { has_global_flag = planetarydiversity }
+				OR = {
+					has_trait = trait_pc_aquatic_preference
+					has_trait = trait_pc_desertislands_preference
+					has_trait = trait_pc_subarctic_preference
+					has_trait = trait_pc_reef_preference
+					has_trait = trait_pc_storm_preference
+				}
+			}
+		}
 	}
 	possible = {
 		has_trait = trait_aquatic
@@ -3815,11 +3827,17 @@ ap_world_shaper = {
 		NOT = {
 			has_ascension_perk = ap_world_shaper
 		}
-		NOT = { has_authority = auth_hive_mind }
+		if = {
+			limit = { NOT = {has_global_flag = planetarydiversity } }
+			NOT = { has_authority = auth_hive_mind }
+		}
 		OR = {
 			NOT = { has_authority = auth_machine_intelligence }
 			has_valid_civic = civic_machine_servitor
-			has_valid_civic = civic_machine_assimilator
+			if = {
+				limit = { NOT = {has_global_flag = planetarydiversity } }
+				has_valid_civic = civic_machine_assimilator
+			}
 		}
 	}
 
@@ -3831,7 +3849,10 @@ ap_world_shaper = {
 				has_origin = origin_void_dwellers
 				has_origin = origin_shattered_ring
 				has_trait = trait_aquatic
-				has_ethic = ethic_gestalt_consciousness
+				if = {
+					limit = { NOT = {has_global_flag = planetarydiversity } }
+					has_ethic = ethic_gestalt_consciousness
+				}
 			}
 		}
 		modifier = {
@@ -3859,6 +3880,14 @@ ap_mastery_of_nature = {
 	on_enabled = {
 		custom_tooltip = "allow_decision_mastery_of_nature"
 		custom_tooltip = "describe_decision_mastery_of_nature"
+		if = {
+			limit = {
+				has_global_flag = planetarydiversity
+			}
+			add_research_option = tech_solar_reflectrion
+			add_research_option = tech_seismic_resonators
+			add_research_option = tech_nanite_soil
+		}
 	}
 	modifier = {
 		deposit_blockers_cost_mult = -0.33
@@ -3944,13 +3973,47 @@ ap_defender_of_the_galaxy = {
 	}
 	modifier = {
 		description = ap_defender_of_the_galaxy_modifier_desc
-		damage_vs_country_type_swarm_mult = 0.5
-		damage_vs_country_type_extradimensional_mult = 0.5
-		damage_vs_country_type_extradimensional_2_mult = 0.5
-		damage_vs_country_type_extradimensional_3_mult = 0.5
-		damage_vs_country_type_ai_empire_mult = 0.5
-		damage_vs_country_type_gray_goo_mult = 0.5
-		damage_vs_player_crisis_mult = 0.5
+		ap_defender_of_the_galaxy = {
+    possible = {
+        custom_tooltip = {
+            fail_text = "requires_ascension_perks_3"
+            num_ascension_perks > 2
+        }
+    }
+    modifier = {
+        description = ap_defender_of_the_galaxy_modifier_desc
+        damage_vs_country_type_swarm_mult = 0.5
+        damage_vs_country_type_extradimensional_mult = 0.5
+        damage_vs_country_type_extradimensional_2_mult = 0.5
+        damage_vs_country_type_extradimensional_3_mult = 0.5
+        damage_vs_country_type_ai_empire_mult = 0.5
+        damage_vs_country_type_gray_goo_mult = 0.5
+        damage_vs_country_type_compound_empire_mult = 0.5
+        damage_vs_country_type_katzenartig_imperium_mult = 0.5
+        damage_vs_country_type_dormant_aeternum_mult = 0.5
+        damage_vs_country_type_blokkat_stripminers_mult = 0.5
+        damage_vs_player_crisis_mult = 0.5
+        damage_vs_country_type_mem_vazurans_mult = 0.5
+    }
+    on_enabled = {
+        custom_tooltip = "ap_defender_of_the_galaxy_effect_opinion"
+    }
+    potential = {
+        NOT = {
+            has_ascension_perk = ap_defender_of_the_galaxy
+        }
+    }
+    ai_weight = {
+        factor = 20
+        modifier = {
+            factor = 0
+            NOR = {
+                has_global_flag = galactic_crisis_happened
+                has_global_flag = gray_goo_crisis_active
+            }
+        }
+    }
+}
 	}
 
 	on_enabled = {
