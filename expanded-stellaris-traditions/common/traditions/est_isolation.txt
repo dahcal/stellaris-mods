@@ -1,6 +1,7 @@
 tr_est_isolation_adopt = {
 	modifier = {
-		country_admin_cap_mult = 0.15
+		empire_size_pops_mult = -0.10
+		empire_size_districts_mult = -0.10
 	}	
 }
 

@@ -11,241 +11,6 @@
 #
 ##########################################################################
 
-#Biogenesis Finish, Food to Mineral Conversion.
-#Remove
-est_biogenesis_finish_food_to_minerals = {
-
-	potential = {
-		always = no
-		has_active_tradition = tr_est_biogenesis_finish
-	}
-	
-	option = {
-		name = "est_biogenesis_finish_food_to_minerals_0"			
-		policy_flags = {
-			est_biogenesis_finish_food_to_minerals_0
-		}	
-		AI_weight = {
-		}
-	}
-	option = {
-		name = "est_biogenesis_finish_food_to_minerals_1"	
-		policy_flags = {
-			est_biogenesis_finish_food_to_minerals_1
-		}		
-		modifier = {
-			country_base_food_produces_add = -10
-			country_base_minerals_produces_add = 10
-		}		
-		valid = {
-			Or = {
-				has_monthly_income = { 
-					resource = food
-					value > 10 
-				}
-				hidden_trigger = {
-					has_policy_flag = est_biogenesis_finish_food_to_minerals_1
-				}
-			}
-			has_resource = { 
-				type = food
-				amount > 0 
-			}
-		}
-		AI_weight = {
-		}
-	}
-	option = {
-		name = "est_biogenesis_finish_food_to_minerals_2"		
-		policy_flags = {
-			est_biogenesis_finish_food_to_minerals_2
-		}	
-		modifier = {
-			country_base_food_produces_add = -25
-			country_base_minerals_produces_add = 25
-		}		
-		valid = {
-			Or = {
-				has_monthly_income = { 
-					resource = food
-					value > 25
-				}
-				hidden_trigger = {
-					has_policy_flag = est_biogenesis_finish_food_to_minerals_2
-				}
-			}
-			has_resource = { 
-				type = food
-				amount > 0 
-			}
-		}	
-		AI_weight = {
-		}
-	}
-	option = {
-		name = "est_biogenesis_finish_food_to_minerals_3"		
-		policy_flags = {
-			est_biogenesis_finish_food_to_minerals_3
-		}	
-		modifier = {
-			country_base_food_produces_add = -50
-			country_base_minerals_produces_add = 50
-		}			
-		valid = {
-			Or = {
-				has_monthly_income = { 
-					resource = food
-					value > 50 
-				}
-				hidden_trigger = {
-					has_policy_flag = est_biogenesis_finish_food_to_minerals_3
-				}
-			}
-			has_resource = { 
-				type = food
-				amount > 0 
-			}
-		}
-		AI_weight = {
-		}
-	}
-	option = {
-		name = "est_biogenesis_finish_food_to_minerals_4"		
-		policy_flags = {
-			est_biogenesis_finish_food_to_minerals_4
-		}	
-		modifier = {
-			country_base_food_produces_add = -100
-			country_base_minerals_produces_add = 100
-		}			
-		valid = {
-			Or = {
-				has_monthly_income = { 
-					resource = food
-					value > 100
-				}
-				hidden_trigger = {
-					has_policy_flag = est_biogenesis_finish_food_to_minerals_4
-				}
-			}
-			has_resource = { 
-				type = food
-				amount > 0 
-			}
-		}
-		AI_weight = {
-		}
-	}
-	option = {
-		name = "est_biogenesis_finish_food_to_minerals_5"		
-		policy_flags = {
-			est_biogenesis_finish_food_to_minerals_5
-		}	
-		modifier = {
-			country_base_food_produces_add = -200
-			country_base_minerals_produces_add = 200
-		}			
-		valid = {
-			Or = {
-				has_monthly_income = { 
-					resource = food
-					value > 200 
-				}
-				hidden_trigger = {
-					has_policy_flag = est_biogenesis_finish_food_to_minerals_5
-				}
-			}
-			has_resource = { 
-				type = food
-				amount > 0 
-			}
-		}
-		AI_weight = {
-		}
-	}
-	option = {
-		name = "est_biogenesis_finish_food_to_minerals_6"		
-		policy_flags = {
-			est_biogenesis_finish_food_to_minerals_6
-		}	
-		modifier = {
-			country_base_food_produces_add = -500
-			country_base_minerals_produces_add = 500
-		}			
-		valid = {
-			Or = {
-				has_monthly_income = { 
-					resource = food
-					value > 500
-				}
-				hidden_trigger = {
-					has_policy_flag = est_biogenesis_finish_food_to_minerals_6
-				}
-			}
-			has_resource = { 
-				type = food
-				amount > 0 
-			}
-		}
-		AI_weight = {
-		}
-	}
-	option = {
-		name = "est_biogenesis_finish_food_to_minerals_7"	
-		policy_flags = {
-			est_biogenesis_finish_food_to_minerals_7
-		}		
-		modifier = {
-			country_base_food_produces_add = -1000
-			country_base_minerals_produces_add = 1000
-		}			
-		valid = {
-			Or = {
-				has_monthly_income = { 
-					resource = food
-					value > 1000
-				}
-				hidden_trigger = {
-					has_policy_flag = est_biogenesis_finish_food_to_minerals_7
-				}
-			}
-			has_resource = { 
-				type = food
-				amount > 0 
-			}
-		}
-		AI_weight = {
-		}
-	}
-	option = {
-		name = "est_biogenesis_finish_food_to_minerals_8"	
-		policy_flags = {
-			est_biogenesis_finish_food_to_minerals_8
-		}		
-		modifier = {
-			country_base_food_produces_add = -2000
-			country_base_minerals_produces_add = 2000
-		}			
-		valid = {
-			Or = {
-				has_monthly_income = { 
-					resource = food
-					value > 2000
-				}
-				hidden_trigger = {
-					has_policy_flag = est_biogenesis_finish_food_to_minerals_8
-				}
-			}
-			has_resource = { 
-				type = food
-				amount > 0 
-			}
-		}
-		AI_weight = {
-		}
-	}
-}
-
 #Greed 2, Ruthless Negotiators.
 est_greed_2_negotiations = {
 
@@ -255,11 +20,12 @@ est_greed_2_negotiations = {
 	
 	option = {
 		name = "est_greed_2_negotiations_0"	
-		AI_weight = {
-		}		
 		policy_flags = {
 			est_greed_2_negotiations_0
 		}			
+		AI_weight = {
+			factor = 1 # AI otherwise risks screwing itself over
+		}		
 	}
 	
 	option = {
@@ -270,7 +36,9 @@ est_greed_2_negotiations = {
 		modifier = {
 			country_trade_attractiveness = 0.05
 		}		
-		AI_weight = { }			
+		AI_weight = { 
+			factor = 0
+		}			
 	}
 	
 	option = {
@@ -281,7 +49,9 @@ est_greed_2_negotiations = {
 		modifier = {
 			country_trade_attractiveness = 0.10
 		}		
-		AI_weight = { }	
+		AI_weight = { 
+			factor = 0
+		}	
 	}
 	
 	option = {
@@ -292,7 +62,9 @@ est_greed_2_negotiations = {
 		modifier = {
 			country_trade_attractiveness = 0.15
 		}			
-		AI_weight = { }	
+		AI_weight = { 
+			factor = 0
+		}	
 	}
 }
 
@@ -305,11 +77,12 @@ est_greed_4_extortion = {
 	
 	option = {
 		name = "est_greed_4_extortion_0"	
-		AI_weight = {
-		}		
 		policy_flags = {
 			est_greed_4_extortion_0
 		}			
+		AI_weight = {
+			factor = 1 # AI otherwise risks screwing itself over
+		}		
 	}
 	
 	option = {
@@ -321,7 +94,9 @@ est_greed_4_extortion = {
 			country_energy_produces_mult = 0.15
 			biological_pop_happiness = -0.10
 		}		
-		AI_weight = { }			
+		AI_weight = { 
+			factor = 0
+		}			
 	}
 	
 	option = {
@@ -333,7 +108,9 @@ est_greed_4_extortion = {
 			country_energy_produces_mult = 0.30
 			biological_pop_happiness = -0.20
 		}		
-		AI_weight = { }			
+		AI_weight = { 
+			factor = 0
+		}			
 	}
 	
 	option = {
@@ -345,7 +122,9 @@ est_greed_4_extortion = {
 			country_energy_produces_mult = 0.45
 			biological_pop_happiness = -0.30
 		}		
-		AI_weight = { }			
+		AI_weight = { 
+			factor = 0
+		}			
 	}
 }
 
@@ -394,7 +173,16 @@ est_subminds_3 = {
 				}
 			}
 		}	
-		AI_weight = { }		
+		AI_weight = { 
+			modifier = {
+				factor = 1
+				has_deficit = energy
+			}
+			modifier = {
+				factor = 0
+				NOT = { has_deficit = energy }
+			}
+		}		
 	}
 	
 	option = {
@@ -431,7 +219,16 @@ est_subminds_3 = {
 				}
 			}
 		}	
-		AI_weight = { }		
+		AI_weight = {
+			modifier = {
+				factor = 1
+				has_deficit = food
+			}
+			modifier = {
+				factor = 0
+				NOT = { has_deficit = food }
+			}
+		}		
 	}
 	
 	option = {
@@ -468,7 +265,16 @@ est_subminds_3 = {
 				}
 			}
 		}	
-		AI_weight = { }		
+		AI_weight = {
+			modifier = {
+				factor = 1
+				has_deficit = minerals
+			}
+			modifier = {
+				factor = 0
+				NOT = { has_deficit = minerals }
+			}
+		}		
 	}
 	
 	option = {
@@ -505,7 +311,26 @@ est_subminds_3 = {
 				}
 			}
 		}	
-		AI_weight = { }		
+		AI_weight = {
+			modifier = {
+				factor = 1
+				NOT = {
+					OR = {
+						has_deficit = minerals
+						has_deficit = food
+						has_deficit = energy
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					has_deficit = minerals
+					has_deficit = food
+					has_deficit = energy
+				}
+			}
+		}		
 	}
 	
 	option = {
@@ -542,7 +367,26 @@ est_subminds_3 = {
 				}
 			}
 		}	
-		AI_weight = { }		
+		AI_weight = {
+			modifier = {
+				factor = 1
+				NOT = {
+					OR = {
+						has_deficit = minerals
+						has_deficit = food
+						has_deficit = energy
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					has_deficit = minerals
+					has_deficit = food
+					has_deficit = energy
+				}
+			}
+		}		
 	}
 }
 
@@ -781,13 +625,16 @@ est_piracy_2_raiding = {
 	potential = {
 		has_tradition = tr_est_piracy_2
 	}
-	
+	# AI can try light raiding, but no more
+	# might change to allow criminal corps and purifiers to go higher
+
 	option = {
 		name = "est_piracy_2_raiding_0"			
 		policy_flags = {
 			est_piracy_2_raiding_0
 		}	
 		AI_weight = {
+			factor = 0.5
 		}
 	}
 	
@@ -800,6 +647,7 @@ est_piracy_2_raiding = {
 			trade_value_mult = 0.10
 		}		
 		AI_weight = {
+			factor = 0.5
 		}
 	}
 	
@@ -812,6 +660,7 @@ est_piracy_2_raiding = {
 			trade_value_mult = 0.20
 		}		
 		AI_weight = {
+			factor = 0
 		}
 	}
 	
@@ -824,6 +673,7 @@ est_piracy_2_raiding = {
 			trade_value_mult = 0.30
 		}		
 		AI_weight = {
+			factor = 0
 		}
 	}
 }

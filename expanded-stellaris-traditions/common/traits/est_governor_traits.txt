@@ -14,7 +14,7 @@
 
 leader_trait_governor_est_mystic = {
 	cost = 0
-	modification = no
+	
 	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_est_mystic.dds"
 	modifier = {
 		pop_government_ethic_attraction = 0.05
@@ -27,7 +27,7 @@ leader_trait_governor_est_mystic = {
 
 leader_trait_governor_est_cognition_central = {
 	cost = 0
-	modification = no
+	
 	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_est_cognition_central.dds"
 	modifier = {
 		planet_crime_mult= -0.10
@@ -40,7 +40,7 @@ leader_trait_governor_est_cognition_central = {
 
 leader_trait_governor_est_confederacy_2 = {
 	cost = 0
-	modification = no
+	
 	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_est_confederacy_2.dds"
 	modifier = {
 		planet_crime_add = -15
@@ -54,7 +54,7 @@ leader_trait_governor_est_confederacy_2 = {
 
 leader_trait_governor_est_chivalry = {
 	cost = 0
-	modification = no
+	
 	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_est_chivalry.dds"
 	modifier = {
 		planet_crime_add = -10

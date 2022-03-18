@@ -6,7 +6,7 @@ tr_est_confederacy_adopt = {
 
 tr_est_confederacy_finish = {
 	modifier = {	
-		country_admin_cap_mult = 0.15
+		empire_size_colonies_mult = -0.10
 		ascension_perks_add = 1
 	}
 }
@@ -48,7 +48,7 @@ tr_est_confederacy_3 = {
 	possible = { has_tradition = tr_est_confederacy_2 }
 
 	modifier = {
-		pop_factions_influence_produces_mult = 0.33
+		pop_factions_produces_mult = 0.33
 	}
 
 	ai_weight = { factor = 5000 }

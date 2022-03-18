@@ -7,7 +7,7 @@ tr_est_swarm_adopt = {
 
 tr_est_swarm_finish = {
 	modifier = {
-		country_admin_cap_mult = 0.20
+		empire_size_pops_mult = -0.20
 		ascension_perks_add = 1
 	}
 }

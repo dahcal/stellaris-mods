@@ -14,7 +14,7 @@
 
 leader_trait_general_est_mystic = {
 	cost = 0
-	modification = no
+	
 	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_est_mystic.dds"
 	modifier = {		
 		army_morale_damage_mult = 0.10
@@ -27,7 +27,7 @@ leader_trait_general_est_mystic = {
 
 leader_trait_general_est_cognition_central = {
 	cost = 0
-	modification = no
+	
 	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_est_cognition_central.dds"
 	modifier = {
 		army_morale_damage_mult = 0.10
@@ -40,7 +40,7 @@ leader_trait_general_est_cognition_central = {
 
 leader_trait_general_est_chivalry = {
 	cost = 0
-	modification = no
+	
 	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_est_chivalry.dds"
 	modifier = {
 		army_morale = 0.10
@@ -53,7 +53,7 @@ leader_trait_general_est_chivalry = {
 
 leader_trait_general_est_chivalry_hero = {
 	cost = 0
-	modification = no
+	
 	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_est_chivalry_hero.dds"
 	modifier = {
 		army_morale = 0.15

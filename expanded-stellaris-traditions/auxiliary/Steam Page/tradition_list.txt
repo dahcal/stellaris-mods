@@ -15,7 +15,7 @@ List of all Traditions, and what they do.
 [h1]Administratum[/h1]
 [i][Non gestalt empires only.][/i]
 
-[u]Adoption:[/u] Administrative Capacity increased by 15%.
+[u]Adoption:[/u] Empire size from colonies -10%.
 (1) [u]Streamlined Recruitment Processes:[/u] -25% Leader recruitment cost.
 (2) [u]Meritocratic Promotion Policies:[/u] +1 Governor Max Skill Level. Governors start with an additional random trait.
 (3) [u]Efficient Bureaucracy:[/u] +25% Building Speed, -25% Clear Blocker Time, +10% Ship Build Speed. 
@@ -102,7 +102,7 @@ List of all Traditions, and what they do.
 (3) [u]Cooperation:[/u] Resource Output is increased by +5% on planets without any crime.
 (4) [u]Ready to Serve:[/u] Navy Size increased by +15% and Army Cost reduced by -15%.
 (5) [u]Self Sacrifice:[/u] Army Morale increased by +20% and the happiness of worker pops is increased by +5%.
-[u]Finisher:[/u] +1 Edcit Cap.
+[u]Finisher:[/u] +50 Edcits Fund.
 
 
 [h1]Commerce[/h1] 
@@ -128,7 +128,7 @@ List of all Traditions, and what they do.
 (4.1) [u]Autonomous States:[/u] Subjects Receive +10% Happiness, +20% Naval Capacity, +50 Opinion.
 (4.2) [u]Loyalty:[/u] Government Ethics Attraction increased by +15%. [i][Swap: Empires without Subject][/i]
 (5) [u]The Endless Realm:[/u] Outpost upkeep cost is reduced by -50%.
-[u]Finisher:[/u] Admin capacity is increased by +15%.
+[u]Finisher:[/u] Empire size from colonies -10%.
  
 
 [h1]Cooperativity[/h1] 
@@ -198,7 +198,7 @@ List of all Traditions, and what they do.
 (2) [u]Holy Scripts:[/u] +5 Stability.
 (3.1) [u]The Clergy:[/u] Provide one Priest Job for every 35 pops on a planet.
 (3.2) [u]The Clergy:[/u] Priests produce +1 unity and consume one less consumer goods. [i][Swap:Spiritualist Empire][/i]
-(4) [u]Preachers:[/u] +1 Edcit Cap.
+(4) [u]Preachers:[/u] +50 Edicts Fund.
 (5) [u]Deus Vult:[/u] +25% Morale, +5% Weapon damage.
 [u]Finisher:[/u] We may select one ethic which attraction is increased by 50%.
  
@@ -206,13 +206,13 @@ List of all Traditions, and what they do.
 [h1]Foundation[/h1]
 [i][Non gestalt empires only. Incompatible with Confederacy traditions][/i]
 
-[u]Adoption:[/u] +10% Government ethics attraction and +20 Administrative Capacity. Increase penalty for going over the administrative capacity by +50%. Enables a policy to swap to confederacy traditions.
+[u]Adoption:[/u] +10% Government ethics attraction, empire size from pops -10% and empire size from colonies +10%. Increase penalty for going over the administrative capacity by +50%. Enables a policy to swap to confederacy traditions.
 (1) [u]A Common Cause:[/u] +15% Unity Output from jobs.
 (2) [u]Centralized Government:[/u] +10% Energy, Physics, Society, Engineering Output, and Trade  Value in Capital. Bonus is increased by to 20%/30% when the Colonial Centralization/Galactic Administration technologies are researched.
 (3) [u]The Grand Design:[/u] +1 Monthly Influence.
 (4) [u]Intelligence Gathering Corps:[/u] +10 Base intel, +20% Survey Speed. 
 (5) [u]Progressive Economy:[/u] +10% Resource production from specialists.
-[u]Finisher:[/u] +2 Energy from Beurocrats.
+[u]Finisher:[/u] +2 Energy from Administrators & Bureaucrats.
 
 
 [h1]Friendship[/h1]
@@ -302,7 +302,7 @@ List of all Traditions, and what they do.
 [h1]Isolation[/h1] 
 [i][May not be Xenophile, fanatic purifiers, barbaric despoilers, devouring swarm, terminators, or assimilators. Incompatible with Proselytism traditions][/i]
 
-[u]Adoption:[/u] Admin Cap is increased by +15%.
+[u]Adoption:[/u] Empire size from pops and districts -10%.
 (1) [u]Fortified Borders:[/u] -15% Starbase Upkeep Cost and +3 Starbase Defence Platform Capacity.
 (2) [u]Fierce Defenders:[/u] +20% Fire Rate in Owned Space, +50% Army Morale on defense.
 (3) [u]Buffer Zones:[/u] Outpost Influence cost is reduced by -10% and Alloy cost by -20%.
@@ -408,7 +408,7 @@ List of all Traditions, and what they do.
 [i][Non gestalt empires only.][/i]
 
 [u]Adoption:[/u] +2 Encryption.
-(1.1) [u]Shroud of Secrecy:[/u] +20% Faction Influence Gain and +25% Ruler Pop Resource production.
+(1.1) [u]Shroud of Secrecy:[/u] +20% Faction Unity Gain and +25% Ruler Pop Resource production.
 (1.2) [u]Shroud of Secrecy:[/u] +25% Ruler Pop Resource production and -25% Rig Election Cost. [Swap: Be a democracy and not have the Shadow Council civic.] [/i]
 (1.3) [u]Shroud of Secrecy:[/u] +25% Ruler Pop Resource production and -50% Rig Election Cost. [Swap: Be an oligarchy and not have the Shadow Council civic.] [/i]
 (1.4) [u]Shroud of Secrecy:[/u] +25% Ruler Pop Resource production and -75% Rig Election Cost. [Swap: Be a dictatorship and not have the Shadow Council civic.] [/i]
@@ -447,10 +447,10 @@ List of all Traditions, and what they do.
 [u]Adoption:[/u] -20% Drone Deviancy.
 (1) [u]Total Information Processing:[/u] +1 Leader Max Skill Level. 
 (2) [u]Full Drone Presence:[/u] +25% Building Speed, -25% Clear Blocker Time, +10% Ship Build Speed. 
-(3) [u]Increased Capacity:[/u] Administrative Capacity increased by 15%.
+(3) [u]Increased Capacity:[/u] Empire size from pops -10%.
 (4) [u]Simultaneous Control:[/u] Developed planets with a sector governor receive 25% District Build Cost.
-(5.1) [u]Advanced Cognitive Synapses:[/u] +25% Edict Duration, +1 Edcit Cap [i][Swap: Hive Minds][/i]
-(5.2) [u]Transmitter Towers:[/u] +25% Edict Duration, +1 Edcit Cap [i][Swap: Machine Empires][/i]
+(5.1) [u]Advanced Cognitive Synapses:[/u] +25% Edict Duration, +50 Edicts Fund [i][Swap: Hive Minds][/i]
+(5.2) [u]Transmitter Towers:[/u] +25% Edict Duration, +50 Edicts Fund [i][Swap: Machine Empires][/i]
 [u]Finisher:[/u] Unlocks an Additional Civics Slot
  
 
@@ -494,7 +494,7 @@ List of all Traditions, and what they do.
 (2) [u]The Means to Succeed:[/u] Amenities increased by +20%.
 (3) [u]The Option of Violence:[/u] +20% Army Damage, +5% Weapon damage.
 (4) [u]Determination:[/u] Ship Speed is increased by +10% and Growth Speed is increased by +15%.
-(5) [u]Ingrained Drone Reflexes:[/u] +1 Edcit Cap.
+(5) [u]Ingrained Drone Reflexes:[/u] +50 Edicts Fund.
 [u]Finisher:[/u] +1 Monthly Influence.
  
 
@@ -546,7 +546,7 @@ List of all Traditions, and what they do.
 [h1]Serverbound[/h1] 
 [i][Machine empires only.][/i]
 
-[u]Adoption:[/u] +15% Administrative capacity.
+[u]Adoption:[/u] Empire size from pops -10%.
 (1) [u]Memory Banks:[/u] Engineering, Physics and Society output is increased by +5%.
 (2) [u]Training Databases:[/u] All leaders gain xp at a slow rate.
 (3) [u]Data Cores:[/u] Jobs Energy output increased by +15%.

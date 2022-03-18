@@ -1,6 +1,6 @@
 tr_est_subminds_adopt = {
 	modifier = {
-		country_admin_cap_mult = 0.15
+		empire_size_colonies_mult = -0.10
 	}
 }
 
@@ -26,7 +26,7 @@ tr_est_subminds_2 = {
 	possible = { has_tradition = tr_est_subminds_1 }
 
 	modifier = {
-		empire_size_pops_mult = -0.15
+		empire_size_pops_mult = -0.10
 	}
 
 	modifier = {

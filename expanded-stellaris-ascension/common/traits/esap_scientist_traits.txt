@@ -1,6 +1,6 @@
 leader_trait_scientist_esap_egalitarian_2_bioinformatician = {
 	cost = 0
-	modification = no
+	
 	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_esap_egalitarian_2_bioinformatician.dds"
 	modifier = {
 		category_biology_research_speed_mult = 0.05
@@ -23,7 +23,7 @@ leader_trait_scientist_esap_egalitarian_2_bioinformatician = {
 
 leader_trait_scientist_esap_egalitarian_2_navy_background = {
 	cost = 0
-	modification = no
+	
 	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_esap_egalitarian_2_navy_background.dds"
 	modifier = {
 		category_voidcraft_research_speed_mult = 0.05
@@ -46,7 +46,7 @@ leader_trait_scientist_esap_egalitarian_2_navy_background = {
 
 leader_trait_scientist_esap_egalitarian_2_racer = {
 	cost = 0
-	modification = no
+	
 	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_esap_egalitarian_2_racer.dds"
 	modifier = {
 		category_voidcraft_research_speed_mult = 0.10
@@ -69,7 +69,7 @@ leader_trait_scientist_esap_egalitarian_2_racer = {
 
 leader_trait_scientist_esap_egalitarian_2_mathematician = {
 	cost = 0
-	modification = no
+	
 	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_esap_egalitarian_2_mathematician.dds"
 	modifier = {
 		category_field_manipulation_research_speed_mult = 0.05
@@ -91,7 +91,7 @@ leader_trait_scientist_esap_egalitarian_2_mathematician = {
 
 leader_trait_scientist_esap_egalitarian_2_explorer = {
 	cost = 0
-	modification = no
+	
 	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_esap_egalitarian_2_explorer.dds"
 	modifier = {
 		category_new_worlds_research_speed_mult = 0.10
@@ -114,7 +114,7 @@ leader_trait_scientist_esap_egalitarian_2_explorer = {
 
 leader_trait_scientist_esap_egalitarian_2_systematic = {
 	cost = 0
-	modification = no
+	
 	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_esap_egalitarian_2_systematic.dds"
 	modifier = {
 		ship_anomaly_fail_risk = -0.05
@@ -136,7 +136,7 @@ leader_trait_scientist_esap_egalitarian_2_systematic = {
 
 leader_trait_scientist_esap_egalitarian_2_traveler = {
 	cost = 0
-	modification = no
+	
 	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_esap_egalitarian_2_traveler.dds"
 	modifier = {
 		category_statecraft_research_speed_mult = 0.05
@@ -158,7 +158,7 @@ leader_trait_scientist_esap_egalitarian_2_traveler = {
 
 leader_trait_scientist_esap_egalitarian_2_chemist = {
 	cost = 0
-	modification = no
+	
 	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_esap_egalitarian_2_chemist.dds"
 	modifier = {       
 		category_materials_research_speed_mult = 0.05

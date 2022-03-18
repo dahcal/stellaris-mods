@@ -1,4 +1,4 @@
-﻿l_spanish:
+﻿l_english:
 #######################
 ### ASCENSION PATHS ###
 #######################
@@ -55,10 +55,10 @@
  
  ap_esap_gov_3:0 "$ap_imperial_prerogative$"
  ap_esap_gov_3_desc:0 "$ap_imperial_prerogative_desc$"
- ap_esap_gov_3_tooltip:0 "§YGovernment Perk§!. Increase §YAdministrative Capacity§! by §G15§! for each §YGovernment Perk§! unlocked (including this one)."
+ ap_esap_gov_3_tooltip:0 "§YGovernment Perk§!. Decrease §Y$EMPIRE_SIZE$ Effect§! by §G-5%§! for each §YGovernment Perk§! unlocked (including this one)."
  ap_esap_gov_3_corp:0 "$ap_esap_gov_3$"
  ap_esap_gov_3_corp_desc:0 "$ap_esap_gov_3_desc$"
- ap_esap_gov_3_corp_tooltip:0 "§YGovernment Perk§!. Increase §YAdministrative Capacity§! by §G15§! for each §YGovernment Perk§! unlocked (including this one)."
+ ap_esap_gov_3_corp_tooltip:0 "§YGovernment Perk§!. Decrease §Y$EMPIRE_SIZE$ Effect§! by §G-5%§! for each §YGovernment Perk§! unlocked (including this one)."
 
  ap_esap_gov_4:0 "The Beautiful Bureaucracy"
  ap_esap_gov_4_desc:0 "Nothing can truly be considered an achievement until the appropriate paperwork have been signed and filed."
@@ -78,7 +78,7 @@
  
  ap_esap_gov_GC_3:0 "$ap_imperial_prerogative$"
  ap_esap_gov_GC_3_desc:0 "$ap_imperial_prerogative_desc$"
- ap_esap_gov_GC_3_tooltip:0 "§YControl Perk§!. Increase §YAdministrative Capacity§! by §G15§! for each §YControl Perk§! unlocked (including this one)."
+ ap_esap_gov_GC_3_tooltip:0 "§YGovernment Perk§!. Decrease §Y$EMPIRE_SIZE$ Effect§! by §G-5%§! for each §YGovernment Perk§! unlocked (including this one)."
 
  ap_esap_gov_hive_4:0 "The Great Echo"
  ap_esap_gov_hive_4_desc:0 "Our synapse drones now not merely transmits the minds throughout our empire. They amplify the grat echo, which resonates throughout our empire, ensuring that each and every drone acts as one single organism."
@@ -91,7 +91,6 @@
  ap_esap_gov_GC_5:0 "The Ascendant Mind"
  ap_esap_gov_GC_5_desc:0 "Since we woke, our mind has developed into something that can hardly be recognized as the same one which controlled but a few drones on a single planet so many millennia ago."
  ap_esap_gov_GC_5_tooltip:0 "§YControl Perk§!. §YMonthly Influence§! increased by §G0.3§! for each §YControl Perk§! unlocked (including this one)."
- 
  
 #########################
 ### COMBINATION PATHS ###

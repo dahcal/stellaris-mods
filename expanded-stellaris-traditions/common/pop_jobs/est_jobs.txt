@@ -89,12 +89,6 @@ est_engineer = {
 		produces = {
 			engineering_research = 8
 		}
-		produces = {
-			trigger = { 
-				owner = { has_valid_civic = civic_technocracy }
-			}
-			unity = 1
-		}
 		upkeep = {
 			consumer_goods = 2
 		}		
@@ -169,9 +163,9 @@ est_shadow_administrator = {
 	possible_precalc = can_fill_ruler_job
 
 	resources = {
-		category = planet_administrators
+		category = planet_politicians
 		produces = {
-			unity = 3
+			unity = 6
 		}
 	}
 	

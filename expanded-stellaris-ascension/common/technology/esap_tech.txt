@@ -111,7 +111,7 @@ tech_esap_technological_ascendancy_bonus_1_admin_cap = {
 	is_reverse_engineerable = no
 	
 	modifier = {
-		country_admin_cap_add = 20
+		empire_size_penalty_mult = -0.05
 	}
 
 	weight_modifier = {

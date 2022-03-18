@@ -1,6 +1,6 @@
 tr_est_administratum_adopt = {
 	modifier = {
-		country_admin_cap_mult = 0.15
+		empire_size_colonies_mult = -0.10
 	}
 }
 
@@ -80,7 +80,7 @@ tr_est_administratum_5 = {
 	}
 	
 	modifier = {
-		country_edict_cap_add = 1
+		country_edict_fund_add = 50
 		edict_length_mult = 0.25
 	}
 

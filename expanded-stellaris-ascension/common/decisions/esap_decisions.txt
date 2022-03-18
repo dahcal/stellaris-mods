@@ -11,7 +11,7 @@ decision_esap_garden_activate = {
 	resources = {
 		category = decisions
 		cost = {
-			influence = 10
+			unity = 100
 			minerals = 360
 		}
 	}
@@ -138,7 +138,7 @@ decision_esap_industry_activate = {
 	resources = {
 		category = decisions
 		cost = {
-			influence = 10
+			unity = 100
 			minerals = 360
 		}
 	}

@@ -137,7 +137,7 @@ tr_est_faith_4 = {
 	possible = { has_tradition = tr_est_faith_1 }
 	
 	modifier = {
-		country_edict_cap_add = 1
+		country_edict_fund_add = 50
 	}
 
 	ai_weight = { factor = 5000 }

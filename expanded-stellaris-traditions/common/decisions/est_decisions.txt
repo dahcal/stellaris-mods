@@ -11,7 +11,7 @@ decision_est_commerce_2_energy_activate = {
 	resources = {
 		category = decisions
 		cost = {
-			influence = 10
+			unity = 100
 		}
 	}
 	
@@ -76,7 +76,7 @@ decision_est_commerce_2_food_activate = {
 	resources = {
 		category = decisions
 		cost = {
-			influence = 10
+			unity = 100
 		}
 	}
 	
@@ -141,7 +141,7 @@ decision_est_commerce_2_minerals_activate = {
 	resources = {
 		category = decisions
 		cost = {
-			influence = 10
+			unity = 100
 		}
 	}
 	
@@ -207,7 +207,7 @@ decision_est_industry_5_activate = {
 	resources = {
 		category = decisions
 		cost = {
-			influence = 10
+			unity = 100
 			minerals = 360
 		}
 	}
@@ -272,7 +272,7 @@ decision_est_industry_5_GC_activate = {
 	resources = {
 		category = decisions
 		cost = {
-			influence = 10
+			unity = 100
 			minerals = 360
 		}
 	}
@@ -337,7 +337,7 @@ decision_est_industry_5_machines_activate = {
 	resources = {
 		category = decisions
 		cost = {
-			influence = 10
+			unity = 100
 			minerals = 360
 		}
 	}
@@ -403,7 +403,7 @@ decision_est_cooperativity_5_activate = {
 	resources = {
 		category = decisions
 		cost = {
-			influence = 50
+			unity = 500
 		}
 	}
 	
@@ -439,7 +439,7 @@ decision_est_cooperativity_5_deactivate = {
 	resources = {
 		category = decisions
 		cost = {
-			influence = 50
+			unity = 500
 		}
 	}
 	
@@ -467,7 +467,7 @@ decision_est_cooperativity_5_machines_activate = {
 	resources = {
 		category = decisions
 		cost = {
-			influence = 50
+			unity = 500
 		}
 	}
 	
@@ -503,7 +503,7 @@ decision_est_cooperativity_5_machines_deactivate = {
 	resources = {
 		category = decisions
 		cost = {
-			influence = 50
+			unity = 500
 		}
 	}
 	

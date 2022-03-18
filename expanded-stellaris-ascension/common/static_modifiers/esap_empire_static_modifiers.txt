@@ -44,35 +44,35 @@ mod_esap_gov_2_5 = {
 }
 
 mod_esap_gov_3_1 = {
-	country_admin_cap_add = 15
+	empire_size_penalty_mult = -0.05
 }
 mod_esap_gov_3_2 = {
-	country_admin_cap_add = 30
+	empire_size_penalty_mult = -0.10
 }
 mod_esap_gov_3_3 = {
-	country_admin_cap_add = 45
+	empire_size_penalty_mult = -0.15
 }
 mod_esap_gov_3_4 = {
-	country_admin_cap_add = 60
+	empire_size_penalty_mult = -0.20
 }
 mod_esap_gov_3_5 = {
-	country_admin_cap_add = 75
+	empire_size_penalty_mult = -0.25
 }
 
 mod_esap_gov_4_1 = {
-	planet_bureaucrats_energy_produces_add = 0.5
+	planet_administrators_energy_produces_add = 0.5
 }
 mod_esap_gov_4_2 = {
-	planet_bureaucrats_energy_produces_add = 1
+	planet_administrators_energy_produces_add = 1
 }
 mod_esap_gov_4_3 = {
-	planet_bureaucrats_energy_produces_add = 1.5
+	planet_administrators_energy_produces_add = 1.5
 }
 mod_esap_gov_4_4 = {
-	planet_bureaucrats_energy_produces_add = 2
+	planet_administrators_energy_produces_add = 2
 }
 mod_esap_gov_4_5 = {
-	planet_bureaucrats_energy_produces_add = 2.5
+	planet_administrators_energy_produces_add = 2.5
 }
 
 mod_esap_gov_5_1 = {
@@ -124,19 +124,19 @@ mod_esap_gov_GC_2_5 = {
 }
 
 mod_esap_gov_GC_3_1 = {
-	country_admin_cap_add = 15
+	empire_size_penalty_mult = -0.05
 }
 mod_esap_gov_GC_3_2 = {
-	country_admin_cap_add = 30
+	empire_size_penalty_mult = -0.05
 }
 mod_esap_gov_GC_3_3 = {
-	country_admin_cap_add = 45
+	empire_size_penalty_mult = -0.05
 }
 mod_esap_gov_GC_3_4 = {
-	country_admin_cap_add = 60
+	empire_size_penalty_mult = -0.05
 }
 mod_esap_gov_GC_3_5 = {
-	country_admin_cap_add = 75
+	empire_size_penalty_mult = -0.05
 }
 
 mod_esap_gov_GC_hive_4_1 = {
@@ -155,19 +155,19 @@ mod_esap_gov_GC_hive_4_5 = {
 	planet_synapse_drones_energy_produces_add = 2.5
 }
 mod_esap_gov_GC_machines_4_1 = {
-	planet_bureaucrats_energy_produces_add = 0.5
+	planet_administrators_energy_produces_add = 0.5
 }
 mod_esap_gov_GC_machines_4_2 = {
-	planet_bureaucrats_energy_produces_add = 1
+	planet_administrators_energy_produces_add = 1
 }
 mod_esap_gov_GC_machines_4_3 = {
-	planet_bureaucrats_energy_produces_add = 1.5
+	planet_administrators_energy_produces_add = 1.5
 }
 mod_esap_gov_GC_machines_4_4 = {
-	planet_bureaucrats_energy_produces_add = 2
+	planet_administrators_energy_produces_add = 2
 }
 mod_esap_gov_GC_machines_4_5 = {
-	planet_bureaucrats_energy_produces_add = 2.5
+	planet_administrators_energy_produces_add = 2.5
 }
 
 mod_esap_gov_GC_5_1 = {

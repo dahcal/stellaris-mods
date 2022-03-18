@@ -23,7 +23,7 @@
 
 leader_trait_meticulous_est_2 = {
 	cost = 1
-	modification = no
+	
 	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_meticulous_est_2.dds"
 	modifier = {
 		ship_anomaly_generation_chance_mult = 0.20
@@ -45,7 +45,7 @@ leader_trait_meticulous_est_2 = {
 
 leader_trait_spark_of_genius_est_2 = {
 	cost = 1
-	modification = no
+	
 	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_spark_of_genius_est_2.dds"
 	modifier = {
 		all_technology_research_speed = 0.20
@@ -69,7 +69,7 @@ leader_trait_spark_of_genius_est_2 = {
 
 leader_trait_carefree_est_2 = {
 	cost = 1
-	modification = no
+	
 	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_carefree_est_2.dds"
 	modifier = {
 		ship_anomaly_research_speed_mult = 0.70
@@ -90,7 +90,7 @@ leader_trait_carefree_est_2 = {
 
 leader_trait_roamer_est_2 = {
 	cost = 1
-	modification = no
+	
 	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_roamer_est_2.dds"
 	modifier = {
 		science_ship_survey_speed = 0.50
@@ -111,7 +111,7 @@ leader_trait_roamer_est_2 = {
 
 leader_trait_archaeologist_ancrel_est_2 = {
 	cost = 1
-	modification = no
+	
 	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_archaeologist.dds"
 
 	leader_potential_add = {
@@ -135,7 +135,7 @@ leader_trait_archaeologist_ancrel_est_2 = {
 
 leader_trait_archaeologist_est_2 = {
 	cost = 1
-	modification = no
+	
 	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_archaeologist_est_2.dds"
 	custom_tooltip = leader_trait_archaeologist_tooltip
 		self_modifier = {
@@ -223,7 +223,7 @@ leader_trait_archaeologist_est_2 = {
 
 leader_trait_maniacal_est_2 = {
 	cost = 1
-	modification = no
+	
 	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_maniacal_est_2.dds"
 	modifier = {
 		all_technology_research_speed = 0.10
@@ -247,7 +247,7 @@ leader_trait_maniacal_est_2 = {
 
 leader_trait_custom_AI_assistant_est_2 = {
 	cost = 1
-	modification = no
+	
 	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_custom_AI_assistant_est_2.dds"
 	modifier = {
 		all_technology_research_speed = 0.10
@@ -275,7 +275,7 @@ leader_trait_custom_AI_assistant_est_2 = {
 
 leader_trait_sentient_AI_assistant_est_2 = {
 	cost = 1
-	modification = no
+	
 	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_sentient_AI_assistant_est_2.dds"
 	modifier = {
 		all_technology_research_speed = 0.2
@@ -303,7 +303,7 @@ leader_trait_sentient_AI_assistant_est_2 = {
 
 leader_trait_expertise_materials_est_2 = {
 	cost = 1
-	modification = no
+	
 	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_expertise_materials_est_2.dds"
 	modifier = {
 		category_materials_research_speed_mult = @categorybonus2
@@ -338,7 +338,7 @@ leader_trait_expertise_materials_est_2 = {
 
 leader_trait_expertise_rocketry_est_2 = {
 	cost = 1
-	modification = no
+	
 	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_expertise_rocketry_est_2.dds"
 	modifier = {
 		category_propulsion_research_speed_mult = @categorybonus2
@@ -373,7 +373,7 @@ leader_trait_expertise_rocketry_est_2 = {
 
 leader_trait_expertise_voidcraft_est_2 = {
 	cost = 1
-	modification = no
+	
 	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_expertise_voidcraft_est_2.dds"
 	modifier = {
 		category_voidcraft_research_speed_mult = @categorybonus2
@@ -408,7 +408,7 @@ leader_trait_expertise_voidcraft_est_2 = {
 
 leader_trait_expertise_industry_est_2 = {
 	cost = 1
-	modification = no
+	
 	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_expertise_industry_est_2.dds"
 	modifier = {
 		category_industry_research_speed_mult = @categorybonus2
@@ -444,7 +444,7 @@ leader_trait_expertise_industry_est_2 = {
 
 leader_trait_expertise_field_manipulation_est_2 = {
 	cost = 1
-	modification = no
+	
 	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_expertise_field_manipulation_est_2.dds"
 	modifier = {
 		category_field_manipulation_research_speed_mult = @categorybonus2
@@ -479,7 +479,7 @@ leader_trait_expertise_field_manipulation_est_2 = {
 
 leader_trait_expertise_particles_est_2 = {
 	cost = 1
-	modification = no
+	
 	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_expertise_particles_est_2.dds"
 	modifier = {
 		category_particles_research_speed_mult = @categorybonus2
@@ -513,7 +513,7 @@ leader_trait_expertise_particles_est_2 = {
 
 leader_trait_expertise_computing_est_2 = {
 	cost = 1
-	modification = no
+	
 	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_expertise_computing_est_2.dds"
 	modifier = {
 		category_computing_research_speed_mult = @categorybonus2
@@ -548,7 +548,7 @@ leader_trait_expertise_computing_est_2 = {
 
 leader_trait_expertise_new_worlds_est_2 = {
 	cost = 1
-	modification = no
+	
 	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_expertise_new_worlds_est_2.dds"
 	modifier = {
 		category_new_worlds_research_speed_mult = @categorybonus2
@@ -583,7 +583,7 @@ leader_trait_expertise_new_worlds_est_2 = {
 
 leader_trait_expertise_statecraft_est_2 = {
 	cost = 1
-	modification = no
+	
 	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_expertise_statecraft_est_2.dds"
 	modifier = {
 		category_statecraft_research_speed_mult = @categorybonus2
@@ -618,7 +618,7 @@ leader_trait_expertise_statecraft_est_2 = {
 
 leader_trait_expertise_biology_est_2 = {
 	cost = 1
-	modification = no
+	
 	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_expertise_biology_est_2.dds"
 	modifier = {
 		category_biology_research_speed_mult = @categorybonus2
@@ -653,7 +653,7 @@ leader_trait_expertise_biology_est_2 = {
 
 leader_trait_expertise_military_theory_est_2 = {
 	cost = 1
-	modification = no
+	
 	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_expertise_military_theory_est_2.dds"
 	modifier = {
 		category_military_theory_research_speed_mult = @categorybonus2

@@ -79,7 +79,7 @@ planet_technician = {
 	}
 }
 
-planet_bureaucrats = {
+planet_administrators = {
 	generate_add_modifiers = {
 		produces
 	}

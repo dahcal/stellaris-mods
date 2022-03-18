@@ -1,6 +1,7 @@
 tr_est_foundation_adopt = {
 	modifier = {
-		country_admin_cap_add = 20
+		empire_size_colonies_mult = 0.10
+		empire_size_pops_mult = -0.10
 		pop_government_ethic_attraction = 0.15
 		empire_size_penalty_mult = 0.50
 	}
@@ -8,7 +9,7 @@ tr_est_foundation_adopt = {
 
 tr_est_foundation_finish = {
 	modifier = {
-		planet_bureaucrats_energy_produces_add = 2
+		planet_administrators_energy_produces_add = 2
 		ascension_perks_add = 1
 	}
 }

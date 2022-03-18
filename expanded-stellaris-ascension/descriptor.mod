@@ -1,8 +1,7 @@
-name="Expanded Stellaris Ascension Perks"
+version="1.0"
 tags={
 	"Gameplay"
 }
-picture="thumbnail.png"
-supported_version="3.2.*"
-path="C:/Users/admin/Documents/Paradox Interactive/Stellaris/mod/esap"
-remote_file_id="1067631798"
+name="Expanded Stellaris Ascension - Unofficial 3.3"
+supported_version="3.3"
+remote_file_id="2780896203"

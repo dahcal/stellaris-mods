@@ -34,7 +34,7 @@ tr_est_omnipresence_2 = {
 
 tr_est_omnipresence_3 = {
 	modifier = {
-		country_admin_cap_mult = 0.15
+		empire_size_pops_mult = -0.10
 	}
 
 	ai_weight = { factor = 5000 }
@@ -58,7 +58,7 @@ tr_est_omnipresence_5 = {
 	}
 
 	modifier = {
-		country_edict_cap_add = 1
+		country_edict_fund_add = 50
 		edict_length_mult = 0.25
 	}
 

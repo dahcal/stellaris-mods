@@ -32,6 +32,10 @@ trade_routes = {
 	parent = trade
 }
 
+situations = {
+	parent = country
+}
+
 resolutions = {
 	parent = country
 	use_for_ai_budget = yes
@@ -42,28 +46,23 @@ edicts = {
 	parent = country
 	generate_mult_modifiers = {
 		cost
+		upkeep
 	}
 }
 
 rare_edicts = {
-	use_for_ai_budget = yes
+	use_for_ai_budget = no
 	parent = edicts
-	generate_mult_modifiers = {
-		cost
-	}
 }
 
 ship_edicts = {
 	parent = rare_edicts
-	use_for_ai_budget = yes
+	use_for_ai_budget = no
 }
 
 campaigns = {
-	use_for_ai_budget = yes
+	use_for_ai_budget = no
 	parent = edicts
-	generate_mult_modifiers = {
-		cost
-	}
 }
 
 decisions = {
@@ -720,33 +719,33 @@ planet_technician = {
 	}
 }
 
+planet_politicians = {
+	parent = planet_jobs_productive
+}
+
+planet_administrators = {
+	icon = "job_bureaucrat"
+	parent = planet_jobs_productive
+	generate_mult_modifiers = {
+		produces
+		upkeep
+	}
+	generate_add_modifiers = {
+		produces
+	}
+}
+
 planet_executives = {
-	parent = planet_jobs
+	parent = planet_politicians
 	generate_mult_modifiers = {
 		produces
 	}
 }
 
 planet_managers = {
-	parent = planet_jobs
+	parent = planet_administrators
 	generate_mult_modifiers = {
 		produces
-	}
-}
-
-planet_administrators = {
-	parent = planet_jobs
-}
-
-planet_bureaucrats = {
-	icon = "job_bureaucrat"
-	parent = planet_jobs
-	generate_mult_modifiers = {
-		produces
-		upkeep
-	}
-	generate_add_modifiers = {
-		produces			### Added in EST-ESAP ###
 	}
 }
 
@@ -782,14 +781,13 @@ planet_culture_workers = {
         upkeep				### Added in EST-ESAP ###
 	}
 	generate_mult_modifiers = {
-		produces
+
 	}
 }
 
 planet_evaluators = {
 	parent = planet_jobs_productive
 	generate_mult_modifiers = {
-		produces
 	}
 }
 
@@ -800,12 +798,11 @@ planet_synapse_drones = {
         upkeep				### Added in EST-ESAP ###
 	}
 	generate_mult_modifiers = {
-		produces
 	}
 }
 
 planet_nobles = {
-	parent = planet_jobs
+	parent = planet_politicians
 }
 
 planet_necro_apprentices = {
@@ -825,6 +822,9 @@ planet_entertainers = {
 
 planet_soldiers = {
 	parent = planet_jobs
+	generate_add_modifiers = {
+		produces
+	}
 }
 
 planet_necromancers = {
@@ -832,23 +832,29 @@ planet_necromancers = {
 }
 
 planet_priests = {
-	parent = planet_jobs_productive
-	generate_add_modifiers = {
-		produces			### Added in EST-ESAP ###
-        upkeep				### Added in EST-ESAP ###
-	}
+	parent = planet_administrators
 	generate_mult_modifiers = {
 		produces
 		upkeep				### Added in EST-ESAP ###
+	}
+	generate_add_modifiers = {
+		produces
+        upkeep				### Added in EST-ESAP ###
 	}
 }
 
 planet_enforcers = {
 	parent = planet_jobs
+	generate_add_modifiers = {
+		produces
+	}
 }
 
 planet_telepaths = {
-	parent = planet_enforcers
+	parent = planet_administrators
+	generate_add_modifiers = {
+		produces
+	}
 }
 
 planet_doctors = {
@@ -936,6 +942,7 @@ planet_pops = {
 unemployment_resources = {
 	parent = planet_pops
 	generate_add_modifiers = {
+		produces
 		upkeep
 	}
 }
@@ -958,12 +965,18 @@ pop_category_purge = {
 
 pop_category_bio_trophy = {
 	parent = planet_pops
+	generate_add_modifiers = {
+		upkeep
+	}
 }
 
 pop_category_slave = {
 	parent = planet_pops
 	generate_mult_modifiers = {
         produces				### Added in EST-ESAP ###
+		upkeep
+	}
+	generate_add_modifiers = {
 		upkeep
 	}
 }
@@ -982,14 +995,23 @@ pop_category_drones = {
 
 pop_category_workers = {
 	parent = planet_pops
+	generate_add_modifiers = {
+		upkeep
+	}
 }
 
 pop_category_specialists = {
 	parent = planet_pops
+	generate_add_modifiers = {
+		upkeep
+	}
 }
 
 pop_category_rulers = {
 	parent = planet_pops
+	generate_add_modifiers = {
+		upkeep
+	}
 }
 
 pop_category_assimilation = {
@@ -1086,20 +1108,6 @@ diplomacy = {
 country_container = {
 	hidden = yes
 	parent = country
-}
-
-country_suppression = {
-	parent = country_container
-	generate_add_modifiers = {
-		upkeep
-	}
-}
-
-country_promotion = {
-	parent = country_container
-	generate_add_modifiers = {
-		upkeep
-	}
 }
 
 country_monuments = {
@@ -1222,6 +1230,16 @@ country_ethic = {
 	}
 }
 
+country_power_projection = {
+	parent = country_container
+	generate_add_modifiers = {
+		produces
+	}
+	generate_mult_modifiers = {
+		produces
+	}
+}
+
 pop_factions = {
 	parent = country
 	generate_mult_modifiers = {
@@ -1229,7 +1247,7 @@ pop_factions = {
 	}
 
 	generate_add_modifiers = {
-		produces
+
 	}
 }
 
@@ -1315,6 +1333,11 @@ sector = {
 }
 
 menace = {
+}
+
+traditions = {
+		use_for_ai_budget = yes
+		parent = country
 }
 
 operations = {

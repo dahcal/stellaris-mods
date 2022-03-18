@@ -1,8 +1,7 @@
-name="Expanded Stellaris Traditions"
+version="1.0"
 tags={
 	"Gameplay"
 }
-picture="thumbnail.png"
-supported_version="3.2.*"
-path="C:/Users/admin/Documents/Paradox Interactive/Stellaris/mod/expanded_stellaris_traditions"
-remote_file_id="946222466"
+name="Expanded Stellaris Traditions - Unofficial 3.3"
+supported_version="3.3"
+remote_file_id="2780895862"
