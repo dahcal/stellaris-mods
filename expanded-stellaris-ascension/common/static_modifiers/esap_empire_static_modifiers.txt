@@ -12,19 +12,19 @@ mod_esap_psi_1 = {
 ###################################
 
 mod_esap_gov_1_1 = {
-	edict_length_mult = 0.20
+	country_edict_fund_add = 20
 }
 mod_esap_gov_1_2 = {
-	edict_length_mult = 0.40
+	country_edict_fund_add = 40
 }
 mod_esap_gov_1_3 = {
-	edict_length_mult = 0.60
+	country_edict_fund_add = 60
 }
 mod_esap_gov_1_4 = {
-	edict_length_mult = 0.80
+	country_edict_fund_add = 80
 }
 mod_esap_gov_1_5 = {
-	edict_length_mult = 1.00
+	country_edict_fund_add = 100
 }
 
 mod_esap_gov_2_1 = {
@@ -92,19 +92,19 @@ mod_esap_gov_5_5 = {
 }
 
 mod_esap_gov_GC_1_1 = {
-	edict_length_mult = 0.20
+	country_edict_fund_add = 20
 }
 mod_esap_gov_GC_1_2 = {
-	edict_length_mult = 0.40
+	country_edict_fund_add = 40
 }
 mod_esap_gov_GC_1_3 = {
-	edict_length_mult = 0.60
+	country_edict_fund_add = 60
 }
 mod_esap_gov_GC_1_4 = {
-	edict_length_mult = 0.80
+	country_edict_fund_add = 80
 }
 mod_esap_gov_GC_1_5 = {
-	edict_length_mult = 1.00
+	country_edict_fund_add = 100
 }
 
 mod_esap_gov_GC_2_1 = {
