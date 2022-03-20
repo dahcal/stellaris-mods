@@ -2145,7 +2145,6 @@ ap_esap_ct3_not_finance = {
 
 	modifier = {
 		pop_government_ethic_attraction = 1.0
-		edict_length_mult = 1.0
 		country_unity_produces_mult = 0.25
 		edicts_cost_mult = -0.20
 		pop_amenities_usage_mult = 0.25
