@@ -47,7 +47,7 @@
 
  ap_esap_gov_1:0 "$ap_executive_vigor$"
  ap_esap_gov_1_desc:0 "$ap_executive_vigor_desc$"
- ap_esap_gov_1_tooltip:0 "§YGovernment Perk§!. §YEdict Length§! increased by §G+20%§! for each §YGovernment Perk§! unlocked (including this one)."
+ ap_esap_gov_1_tooltip:0 "§YGovernment Perk§!. §YEdict Fund§! increased by §+20§! for each §YGovernment Perk§! unlocked (including this one)."
  
  ap_esap_gov_2:0 "$ap_transcendent_learning$"
  ap_esap_gov_2_desc:0 "$ap_transcendent_learning_desc$"
@@ -70,7 +70,7 @@
 
  ap_esap_gov_GC_1:0 "Restless Execution"
  ap_esap_gov_GC_1_desc:0 "The actions of our drones are automatic, yet governed by parameters. We continiously tweak each and every one of these parameters, constantly striving for perfect optimization."
- ap_esap_gov_GC_1_tooltip:0 "§YControl Perk§!. §YEdict Length§! increased by §G+20%§! for each §YControl Perk§! unlocked (including this one)."
+ ap_esap_gov_GC_1_tooltip:0 "§YControl Perk§!. §YEdict Fund§! increased by §+20§! for each §YGovernment Perk§! unlocked (including this one)."
  
  ap_esap_gov_GC_2:0 "$ap_transcendent_learning$"
  ap_esap_gov_GC_2_desc:0 "We have always observed, and we have always learned from those observations. We have even observed our learning, and learned how we learn from those observations. But now, we observe how we observe how we learn, and learn how we learn from our observations. We also observe how we observe how we observe how we learn, and learn how we learn how we..."
