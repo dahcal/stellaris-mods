@@ -1,9 +1,11 @@
 tr_est_foundation_adopt = {
 	modifier = {
-		empire_size_colonies_mult = 0.10
-		empire_size_pops_mult = -0.10
+		empire_size_colonies_mult = 1.0
+		empire_size_pops_mult = -0.25
+		empire_size_districts_mult = -0.25
 		pop_government_ethic_attraction = 0.15
-		empire_size_penalty_mult = 0.50
+		empire_size_systems_mult = 0.50
+		empire_size_penalty_mult = 0.25
 	}
 }
 
