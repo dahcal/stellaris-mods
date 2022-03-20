@@ -69,7 +69,7 @@ tr_est_justice_3 = {
 
 	modifier = {
 		edicts_cost_mult = -0.10
-		edict_length_mult = 0.25
+		country_edict_fund_add = 20
 	}
 
 	ai_weight = {

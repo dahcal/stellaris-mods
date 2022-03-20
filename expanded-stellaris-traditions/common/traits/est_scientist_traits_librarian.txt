@@ -24,7 +24,7 @@ leader_trait_scientist_est_librarian_astronomy = {
 	}
 	self_modifier = {
 		leaders_cost_mult  = 0.50
-		leaders_upkeep_mult = 0.50
+		leaders_upkeep_mult = 0.20
 	}
 	ai_weight = {
 		weight = 1
@@ -45,7 +45,7 @@ leader_trait_scientist_est_librarian_mathematics = {
 	}
 	self_modifier = {
 		leaders_cost_mult  = 0.50
-		leaders_upkeep_mult = 0.50
+		leaders_upkeep_mult = 0.20
 	}
 	ai_weight = {
 		weight = 1
@@ -66,7 +66,7 @@ leader_trait_scientist_est_librarian_electronics = {
 	}
 	self_modifier = {
 		leaders_cost_mult  = 0.50
-		leaders_upkeep_mult = 0.50
+		leaders_upkeep_mult = 0.20
 	}
 	ai_weight = {
 		weight = 1
@@ -87,7 +87,7 @@ leader_trait_scientist_est_librarian_software = {
 	}
 	self_modifier = {
 		leaders_cost_mult  = 0.50
-		leaders_upkeep_mult = 0.50
+		leaders_upkeep_mult = 0.20
 	}
 	ai_weight = {
 		weight = 1
@@ -108,7 +108,7 @@ leader_trait_scientist_est_librarian_culture = {
 	}
 	self_modifier = {
 		leaders_cost_mult  = 0.50
-		leaders_upkeep_mult = 0.50
+		leaders_upkeep_mult = 0.20
 	}
 	ai_weight = {
 		weight = 1
@@ -129,7 +129,7 @@ leader_trait_scientist_est_librarian_history = {
 	}
 	self_modifier = {
 		leaders_cost_mult  = 0.50
-		leaders_upkeep_mult = 0.50
+		leaders_upkeep_mult = 0.20
 	}
 	ai_weight = {
 		weight = 1
@@ -150,7 +150,7 @@ leader_trait_scientist_est_librarian_taxonomy = {
 	}
 	self_modifier = {
 		leaders_cost_mult  = 0.50
-		leaders_upkeep_mult = 0.50
+		leaders_upkeep_mult = 0.20
 	}
 	ai_weight = {
 		weight = 1
@@ -171,7 +171,7 @@ leader_trait_scientist_est_librarian_communication = {
 	}
 	self_modifier = {
 		leaders_cost_mult  = 0.50
-		leaders_upkeep_mult = 0.50
+		leaders_upkeep_mult = 0.20
 	}
 	ai_weight = {
 		weight = 1
@@ -192,7 +192,7 @@ leader_trait_scientist_est_librarian_war = {
 	}
 	self_modifier = {
 		leaders_cost_mult  = 0.50
-		leaders_upkeep_mult = 0.50
+		leaders_upkeep_mult = 0.20
 	}
 	ai_weight = {
 		weight = 1
@@ -213,7 +213,7 @@ leader_trait_scientist_est_librarian_chemistry = {
 	}
 	self_modifier = {
 		leaders_cost_mult  = 0.50
-		leaders_upkeep_mult = 0.50
+		leaders_upkeep_mult = 0.20
 	}
 	ai_weight = {
 		weight = 1
@@ -234,7 +234,7 @@ leader_trait_scientist_est_librarian_geology = {
 	}
 	self_modifier = {
 		leaders_cost_mult  = 0.50
-		leaders_upkeep_mult = 0.50
+		leaders_upkeep_mult = 0.20
 	}
 	ai_weight = {
 		weight = 1
@@ -255,7 +255,7 @@ leader_trait_scientist_est_librarian_architecture = {
 	}
 	self_modifier = {
 		leaders_cost_mult  = 0.50
-		leaders_upkeep_mult = 0.50
+		leaders_upkeep_mult = 0.20
 	}
 	ai_weight = {
 		weight = 1
@@ -276,7 +276,7 @@ leader_trait_scientist_est_librarian_mechanics = {
 	}
 	self_modifier = {
 		leaders_cost_mult  = 0.50
-		leaders_upkeep_mult = 0.50
+		leaders_upkeep_mult = 0.20
 	}
 	ai_weight = {
 		weight = 1

@@ -80,8 +80,7 @@ tr_est_administratum_5 = {
 	}
 	
 	modifier = {
-		country_edict_fund_add = 50
-		edict_length_mult = 0.25
+		country_edict_fund_add = 60
 	}
 
 	ai_weight = { factor = 5000 }

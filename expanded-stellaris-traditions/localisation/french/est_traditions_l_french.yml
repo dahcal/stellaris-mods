@@ -962,7 +962,7 @@ tr_est_proselytism_3_desc:0 "Conquered £pops  §YPops§! receive no §YRecently
 tr_est_proselytism_3_delayed:0 "As more people are included in our empire with must take measures to ensure that they are properly and thoroughly assimilated into our society."
 
 tr_est_proselytism_4:0 "Ordo Patria"
-tr_est_proselytism_4_desc:0 "Increases §YEthic Attraction§! towards our §YEthics§! by §G+25%§! in all our §YSubject§! empires (effect doubled for §YFanatic Ethics§!). §Y$MOD_COUNTRY_EDICT_LENGTH_MULT$§! increased by §G+15%§!."
+tr_est_proselytism_4_desc:0 "Increases §YEthic Attraction§! towards our §YEthics§! by §G+25%§! in all our §YSubject§! empires (effect doubled for §YFanatic Ethics§!). §Y$MOD_COUNTRY_EDICT_FUND$§! increased by §G25%§!."
 tr_est_proselytism_4_delayed:0 "The Ordo Patria is tasked with ensuring that all our citizens show proper love for our homeland. Its representatives will also travel to our subjects and ensure that they too follow our ideals."
 
 tr_est_proselytism_5:0 "Exceptionalism"

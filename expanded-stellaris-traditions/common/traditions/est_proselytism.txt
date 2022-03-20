@@ -377,7 +377,7 @@ tr_est_proselytism_4 = {
 	possible = { has_tradition = tr_est_proselytism_3 }
 
 	modifier = {
-		edict_length_mult = 0.25
+		country_edict_fund_add = 25
 	}
 	
 	tradition_swap = {
@@ -391,7 +391,7 @@ tr_est_proselytism_4 = {
 			}
 		}	
 		modifier = {
-			edict_length_mult = 0.25
+			country_edict_fund_add = 25
 			planet_crime_mult = -0.15
 		}
 		weight = { factor = 1 }

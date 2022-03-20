@@ -58,5 +58,19 @@ tr_est_individualism_5 = {
 		species_leader_exp_gain = 0.25
 	}
 
+	tradition_swap = {
+		name = tr_est_individualism_5_purifier
+		inherit_icon = yes
+		inherit_name = yes
+		trigger = {
+				has_valid_civic = civic_fanatic_purifiers
+				has_valid_civic = civic_inwards_perfection
+		}	
+		modifier = {
+			species_leader_exp_gain = 0.25
+		}
+		weight = { factor = 1 }
+	}
+
 	ai_weight = { factor = 5000 }
 }
