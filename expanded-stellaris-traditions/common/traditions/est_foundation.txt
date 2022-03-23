@@ -5,7 +5,7 @@ tr_est_foundation_adopt = {
 		empire_size_districts_mult = -0.25
 		pop_government_ethic_attraction = 0.15
 		empire_size_systems_mult = 0.50
-		empire_size_penalty_mult = 0.25
+		empire_size_penalty_mult = 0.10
 	}
 }
 
