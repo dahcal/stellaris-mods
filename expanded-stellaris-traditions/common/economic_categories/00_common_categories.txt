@@ -792,7 +792,7 @@ planet_evaluators = {
 }
 
 planet_synapse_drones = {
-	parent = planet_jobs_productive
+	parent = planet_administrators
 	generate_add_modifiers = {
 		produces			### Added in EST-ESAP ###
         upkeep				### Added in EST-ESAP ###
