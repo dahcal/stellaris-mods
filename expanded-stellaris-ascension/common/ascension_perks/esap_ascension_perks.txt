@@ -1755,9 +1755,27 @@ ap_esap_ct1_finance = {
 	}
 
 	modifier = {
-		description = ap_esap_ct1_finance_tooltip
+		if = {
+			limit = { 
+				is_machine_empire = yes 
+			}
+			description = ap_esap_ct1_finance_machine_tooltip
+		}
+		if = {
+			limit = {
+				is_hive_empire = yes
+			}
+			description = ap_esap_ct1_finance_hive_tooltip
+		}
+		if = {
+			limit = {
+				is_regular_empire = yes
+			}
+			description = ap_esap_ct1_finance_tooltip
+		}
 		planet_districts_cities_energy_upkeep_add = -1
 	}
+	
 	
 	potential = {
 		NOT = {

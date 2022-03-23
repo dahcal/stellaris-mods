@@ -121,6 +121,8 @@
  ap_esap_ct1_finance_tooltip:0 "Gain §Y200§! £energy£ §YEnergy Credit§! whenever a §Y$district_city$§! is built. The £energy£ §YEnergy Upkeep§! for §Y$district_city$§! is reduced by §Y1§!."
  ap_esap_ct1_finance_req_1:0 "$TRIGGER_FAIL$ Must have at least §Y2500§! £energy£ §YStored Energy§!." 
  ap_esap_ct1_finance_req_2:0 "$TRIGGER_FAIL$May not have the §Y$ap_esap_ct3_not_finance$§! Ascension Perk." 
+ ap_esap_ct1_finance_machine_tooltip:0 "Gain §Y200§! £energy£ §YEnergy Credit§! whenever a §Y$district_nexus$§! is built. The £energy£ §YEnergy Upkeep§! for §Y$district_nexus$§! is reduced by §Y1§!."
+ ap_esap_ct1_finance_hive_tooltip:0 "Gain §Y200§! £energy£ §YEnergy Credit§! whenever a §Y$district_hive$§! is built. The £energy£ §YEnergy Upkeep§! for §Y$district_hive$§! is reduced by §Y1§!."
 
  ap_esap_ct1_infrastructure:0 "Builders of Nations"
  ap_esap_ct1_infrastructure_desc:0 "As we spread across the stars, on the worlds of our empire, cvilization burst forth."
