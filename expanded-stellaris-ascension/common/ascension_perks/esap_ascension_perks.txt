@@ -4022,65 +4022,6 @@ ap_defender_of_the_galaxy = {
         }
     }
 }
-	}
-
-	on_enabled = {
-		custom_tooltip = "ap_defender_of_the_galaxy_effect_opinion"
-		# see triggered_opinion_ap_defender_of_the_galaxy
-	}
-
-	potential = {
-		NOT = {
-			has_ascension_perk = ap_defender_of_the_galaxy
-		}
-	}
-
-	ai_weight = {
-		factor = 20
-		modifier = {
-			factor = 0
-			NOR = {
-				is_xenophile = yes
-				is_galactic_custodian = yes
-				is_galactic_emperor = yes
-				any_country = {
-					OR = {
-						has_crisis_level = crisis_level_5
-						is_country_type = swarm
-						is_country_type = extradimensional
-						is_country_type = extradimensional_2
-						is_country_type = extradimensional_3
-						is_country_type = ai_empire
-						is_country_type = gray_goo
-					}
-				}
-			}
-		}
-		modifier = {
-			factor = 100
-			OR = {
-				is_galactic_custodian = yes
-				is_galactic_emperor = yes
-			}
-		}
-		modifier = {
-			factor = 0.25
-			NOT = {
-				any_country = {
-					OR = {
-						has_crisis_level = crisis_level_5
-						is_country_type = swarm
-						is_country_type = extradimensional
-						is_country_type = extradimensional_2
-						is_country_type = extradimensional_3
-						is_country_type = ai_empire
-						is_country_type = gray_goo
-					}
-				}
-			}
-		}
-	}
-}
 
 ap_shared_destiny = {
 	modifier = {
