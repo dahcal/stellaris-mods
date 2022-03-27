@@ -127,16 +127,16 @@ mod_esap_gov_GC_3_1 = {
 	empire_size_penalty_mult = -0.05
 }
 mod_esap_gov_GC_3_2 = {
-	empire_size_penalty_mult = -0.05
+	empire_size_penalty_mult = -0.10
 }
 mod_esap_gov_GC_3_3 = {
-	empire_size_penalty_mult = -0.05
+	empire_size_penalty_mult = -0.15
 }
 mod_esap_gov_GC_3_4 = {
-	empire_size_penalty_mult = -0.05
+	empire_size_penalty_mult = -0.20
 }
 mod_esap_gov_GC_3_5 = {
-	empire_size_penalty_mult = -0.05
+	empire_size_penalty_mult = -0.25
 }
 
 mod_esap_gov_GC_hive_4_1 = {
