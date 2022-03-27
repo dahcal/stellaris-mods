@@ -3987,15 +3987,6 @@ ap_defender_of_the_galaxy = {
 			fail_text = "requires_ascension_perks_3"
 			num_ascension_perks > 2
 		}
-	}
-	modifier = {
-		description = ap_defender_of_the_galaxy_modifier_desc
-		ap_defender_of_the_galaxy = {
-    possible = {
-        custom_tooltip = {
-            fail_text = "requires_ascension_perks_3"
-            num_ascension_perks > 2
-        }
     }
     modifier = {
         description = ap_defender_of_the_galaxy_modifier_desc
