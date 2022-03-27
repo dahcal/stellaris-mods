@@ -140,19 +140,19 @@ mod_esap_gov_GC_3_5 = {
 }
 
 mod_esap_gov_GC_hive_4_1 = {
-	planet_synapse_drones_energy_produces_add = 0.5
+	planet_synapse_drone_energy_produces_add = 0.5
 }
 mod_esap_gov_GC_hive_4_2 = {
-	planet_synapse_drones_energy_produces_add = 1
+	planet_synapse_drone_energy_produces_add = 1
 }
 mod_esap_gov_GC_hive_4_3 = {
-	planet_synapse_drones_energy_produces_add = 1.5
+	planet_synapse_drone_energy_produces_add = 1.5
 }
 mod_esap_gov_GC_hive_4_4 = {
-	planet_synapse_drones_energy_produces_add = 2
+	planet_synapse_drone_energy_produces_add = 2
 }
 mod_esap_gov_GC_hive_4_5 = {
-	planet_synapse_drones_energy_produces_add = 2.5
+	planet_synapse_drone_energy_produces_add = 2.5
 }
 mod_esap_gov_GC_machines_4_1 = {
 	planet_administrators_energy_produces_add = 0.5
