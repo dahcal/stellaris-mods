@@ -99,7 +99,7 @@ planet_culture_workers = {
 	}
 }
 
-planet_synapse_drone = {
+planet_synapse_drones = {
 	generate_add_modifiers = {
 		produces
         upkeep

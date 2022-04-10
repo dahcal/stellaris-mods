@@ -1424,7 +1424,7 @@ ap_esap_gov_hive_4 = {
 	}
 
 	modifier = {
-		planet_synapse_drone_unity_produces_add = 1
+		planet_synapse_drones_unity_produces_add = 1
 	}
 
 	potential = {
@@ -1773,7 +1773,7 @@ ap_esap_ct1_finance = {
 			}
 			description = ap_esap_ct1_finance_tooltip
 		}
-		planet_districts_cities_energy_upkeep_add = -1
+		planet_districts_cities_upkeep_mult = -0.5
 	}
 	
 	
