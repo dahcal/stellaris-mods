@@ -17,6 +17,27 @@ ap_engineered_evolution = {
 		hidden_effect = {
 			country_event = { id = utopia.2700 }
 		}
+		if = { # Vanilla
+			limit = {
+				has_origin = origin_clone_army
+				OR = {
+					has_trait = trait_clone_soldier_infertile
+					has_trait = trait_clone_soldier_infertile_full_potential
+				}
+			}
+			custom_tooltip = clone_soldier_locked_genes
+		}
+		if = { # From Planetary Diversity
+			limit = {
+				has_global_flag = planetarydiversityuniques
+				has_origin = origin_techno_world
+				OR = {
+					has_trait = trait_organic_fourschildren
+					has_trait = trait_organic_fourschildren_2
+				}
+			}
+			custom_tooltip = fourschildren_locked_genes
+		}
 	}
 	possible = {
 		custom_tooltip = {
@@ -62,6 +83,7 @@ ap_engineered_evolution = {
 		BIOLOGICAL_species_trait_points_add = @ap_engineered_evolution_POINTS
 
 		modify_species_cost_mult = @ap_engineered_evolution_COST_MULT
+
 	}
 	
 	potential = {
@@ -84,7 +106,11 @@ ap_engineered_evolution = {
 		factor = 10
 		modifier = {
 			factor = 0
-			num_owned_planets < 10
+			num_owned_planets < 6
+		}
+		modifier = {
+			factor = 3
+			has_authority = auth_hive_mind
 		}
 	}
 }
@@ -97,6 +123,27 @@ ap_evolutionary_mastery = {
 		add_research_option = tech_genetic_resequencing
 		hidden_effect = {
 			country_event = { id = utopia.2703 }
+		}
+		if = { # Vanilla
+			limit = {
+				has_origin = origin_clone_army
+				OR = {
+					has_trait = trait_clone_soldier_infertile
+					has_trait = trait_clone_soldier_infertile_full_potential
+				}
+			}
+			custom_tooltip = clone_soldier_locked_genes
+		}
+		if = { # Planetary Diversity
+			limit = {
+				has_global_flag = planetarydiversityuniques
+				has_origin = origin_techno_world
+				OR = {
+					has_trait = trait_organic_fourschildren
+					has_trait = trait_organic_fourschildren_2
+				}
+			}
+			custom_tooltip = fourschildren_locked_genes
 		}
 	}
 	possible = {
@@ -225,10 +272,12 @@ ap_the_flesh_is_weak = {
 			country_event = { id = utopia.2500 }
 		}
 	}
+
 	modifier = {
 		planet_pops_robotics_upkeep_mult = -0.10
 		planet_pop_assembly_mult = 0.10
-	}	
+	}
+
 	possible = {
 		custom_tooltip = {
 			fail_text = "synthetic_empire_synthetic_ascension"
@@ -270,7 +319,11 @@ ap_the_flesh_is_weak = {
 			has_ascension_perk = ap_the_flesh_is_weak
 			has_authority = "auth_machine_intelligence"
 		}
-		is_mechanical_empire = no		
+		is_mechanical_empire = no
+		if ={
+			limit = { has_global_flag = planetarydiversityuniques }
+			NOT = { has_origin = origin_techno_world }
+		}
 	}
 	
 	ai_weight = {
@@ -284,7 +337,7 @@ ap_the_flesh_is_weak = {
 		}
 		modifier = {
 			factor = 0
-			num_owned_planets < 10
+			num_owned_planets < 6
 		}		
 	}
 }
@@ -293,15 +346,46 @@ ap_the_flesh_is_weak = {
 ap_synthetic_evolution = {
 	on_enabled = {
 		custom_tooltip = "synthetic_evolution_tooltip"
+		if = {
+			limit = {
+				has_origin = origin_necrophage
+				has_trait = trait_necrophage
+			}
+			custom_tooltip = disables_necrophage_features
+		}
+		if = {
+			limit = {
+				has_origin = origin_clone_army
+				OR = {
+					has_trait = trait_clone_soldier_infertile
+					has_trait = trait_clone_soldier_infertile_full_potential
+					has_trait = trait_clone_soldier_fertile
+				}
+			}
+			custom_tooltip = disables_clone_army_origin_features
+		}
+		if = {
+			limit = {
+				OR = {
+					has_valid_civic = civic_idyllic_bloom
+					has_valid_civic = civic_hive_idyllic_bloom
+				}
+			}
+			custom_tooltip = disables_idyllic_bloom
+		}
 		hidden_effect = {
 			country_event = { id = esap_ascension_paths.3 }
 		}
 	}
+
 	modifier = {
 		planet_jobs_robotic_produces_mult = 0.10
 		ROBOT_species_trait_points_add = 1
 		modify_species_cost_mult = -0.50
-	}		
+	}
+	
+
+	
 	possible = {
 		custom_tooltip = {
 			fail_text = "synthetic_empire_synthetic_ascension"
@@ -349,6 +433,10 @@ ap_synthetic_evolution = {
 			has_authority = "auth_machine_intelligence"
 		}
 		is_mechanical_empire = no
+		if ={
+			limit = { has_global_flag = planetarydiversityuniques }
+			NOT = { has_origin = origin_techno_world }
+		}
 	}
 	
 	ai_weight = {
@@ -467,6 +555,10 @@ ap_mind_over_matter = {
 			has_ascension_perk = ap_esap_bio_cyber_psi_1
 			has_ascension_perk = ap_esap_bio_cyber_psi_2_plain
 		}
+		if ={
+			limit = { has_global_flag = planetarydiversityuniques }
+			NOT = { has_origin = origin_techno_world }
+		}
 	}
 	
 	ai_weight = {
@@ -480,7 +572,7 @@ ap_mind_over_matter = {
 		}	
 		modifier = {
 			factor = 0
-			num_owned_planets < 10
+			num_owned_planets < 6
 		}
 		modifier = {
 			factor = 10
@@ -497,6 +589,7 @@ ap_transcendence = {
 			country_event = { id = utopia.2650 }
 		}
 	}
+
 	possible = {
 		custom_tooltip = {
 			fail_text = "synthetic_empire_psionic_ascension"
@@ -546,6 +639,10 @@ ap_transcendence = {
 				is_cyborg_empire = no
 			}
 			esap_has_bio_cyber_psi_1 = yes
+		}
+		if ={
+			limit = { has_global_flag = planetarydiversityuniques }
+			NOT = { has_origin = origin_techno_world }
 		}	
 	}
 	
